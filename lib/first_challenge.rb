@@ -23,10 +23,10 @@ def first_challenge (contacts)
       #   info_value.each do |flavor|
       #     flavor.delete_if == "strawberry"
       #     contacts
-    end
-  end
-end
-end
+#     end
+#   end
+# end
+# end
 end
 binding.pry
   return contacts
