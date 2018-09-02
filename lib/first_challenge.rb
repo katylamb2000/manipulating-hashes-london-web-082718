@@ -17,11 +17,12 @@ def first_challenge
 def first_challenge (contacts)
   contacts.each do |person, info|
     if person == "Freddy Mercury"
-      info.each do |info_key, info_value|
-      if info_value == :favorite_icecream_flavors
-        info_value.each do |flavor|
-          flavor.delete_if == "strawberry"
-          contacts
+      puts "Frddy"
+      # info.each do |info_key, info_value|
+      # if info_value == :favorite_icecream_flavors
+      #   info_value.each do |flavor|
+      #     flavor.delete_if == "strawberry"
+      #     contacts
     end
   end
 end
