@@ -16,6 +16,7 @@ def first_challenge
   contacts.each do |person, info|
     if name == "Freddy"
       info.each do |info_value|
+      end
       if info_value =="strawberry"
       ["Freddy Mercury"][:favorite_icecream_flavors][strawberry].delete  
 end
@@ -23,6 +24,6 @@ end
 end
   #remember to return your newly altered contacts hash!
   contacts
-end
+
 end
 
