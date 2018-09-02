@@ -17,7 +17,7 @@ def first_challenge (contacts)
     if name == "Freddy"
       info.each do |info_value|
       end
-      if info_value =="strawberry"
+      if info_value.include? "strawberry"
       "strawberry".delete  
 end
 end
