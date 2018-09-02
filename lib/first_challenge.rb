@@ -16,7 +16,9 @@ def first_challenge
     
   }
 def first_challenge (contacts)
+  
   binding.pry
+  
   contacts.each do |person, info|
     if person == "Freddy Mercury"
       puts "Frddy"
