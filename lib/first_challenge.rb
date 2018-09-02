@@ -15,9 +15,10 @@ def first_challenge
 def first_challenge (contacts)
   contacts.each do |person, info|
     if name == "Freddy"
-      info.each do |info_value|
-      if info_value.include? "strawberry"
-      "strawberry".delete 
+      info.each do |info_key, info_value|
+      if info_value == :favorite_icecream_flavors
+        info_value.each do |flavor|
+          "strawberry".delete
     end
   end
 end
