@@ -20,6 +20,7 @@ def first_challenge (contacts)
       "strawberry".delete 
     end
   end
+end
   return contacts
 end
  
