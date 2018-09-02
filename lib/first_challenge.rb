@@ -12,7 +12,7 @@ def first_challenge
       name: "Freddy",
       email: "freddy@mercury.com",
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
-    }
+    }binding.pry
   }
 def first_challenge (contacts)
   contacts.each do |person, info|
@@ -28,7 +28,7 @@ def first_challenge (contacts)
 # end
 # end
 end
-binding.pry
+
   return contacts
 end
 end
