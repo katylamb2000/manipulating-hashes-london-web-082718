@@ -18,11 +18,9 @@ def first_challenge (contacts)
       info.each do |info_value|
       if info_value.include? "strawberry"
       "strawberry".delete 
+    end
+  end
+  return contacts
 end
-end
-end
-  #remember to return your newly altered contacts hash!
-  contacts
-
-end
+ 
 
