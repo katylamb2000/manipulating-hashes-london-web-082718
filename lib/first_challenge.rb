@@ -17,14 +17,16 @@ def first_challenge
   }
 def first_challenge (contacts)
   
-  contacts.each do |person, info|
-    if person == "Freddy Mercury"
-      info.each do |info_key, info_value|
-      if info_key == :favorite_icecream_flavors
-        info_value.each do |flavor|
-          if flavor == "strawberry"
-            flavor.delete
-          contacts
+  if contact
+  
+  # contacts.each do |person, info|
+  #   if person == "Freddy Mercury"
+  #     info.each do |info_key, info_value|
+  #     if info_key == :favorite_icecream_flavors
+  #       info_value.each do |flavor|
+  #         if flavor == "strawberry"
+  #           flavor.delete
+  #         contacts
     end
    end
  end
