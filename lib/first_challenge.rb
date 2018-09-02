@@ -18,7 +18,7 @@ def first_challenge (contacts)
       info.each do |info_value|
       end
       if info_value =="strawberry"
-      ["Freddy Mercury"][:favorite_icecream_flavors][strawberry].delete  
+      "strawberry".delete  
 end
 end
 end
