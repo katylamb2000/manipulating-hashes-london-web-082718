@@ -13,9 +13,10 @@ def first_challenge
       email: "freddy@mercury.com",
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
-    binding.pry
+    
   }
 def first_challenge (contacts)
+  binding.pry
   contacts.each do |person, info|
     if person == "Freddy Mercury"
       puts "Frddy"
