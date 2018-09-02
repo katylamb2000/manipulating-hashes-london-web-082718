@@ -17,7 +17,8 @@ def first_challenge
   }
 def first_challenge (contacts)
   
-  if contact
+  if contact ["Freddy Mercury"][:favorite_icecream_flavors]).include ("strawberry")
+    "strawberry.delete"
   
   # contacts.each do |person, info|
   #   if person == "Freddy Mercury"
@@ -27,9 +28,9 @@ def first_challenge (contacts)
   #         if flavor == "strawberry"
   #           flavor.delete
   #         contacts
-    end
-   end
- end
+#     end
+#   end
+# end
  end
 end
 end
